@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color:white;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.line {
+    width: 50%;
+    height: 3px;
+    background-color: gr;
+    margin: 10px auto;
+}
+.gallery-container {
+    background-color:rgb(246, 200, 194);
+    border: 5px solid rgb(6, 168, 249);
+    padding: 20px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.gallery img {
+    width: 180px;
+    height: auto;
+    border: 2px solid rgb(15, 15, 17);
+    padding: 5px;
+}
